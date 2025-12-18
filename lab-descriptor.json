@@ -1,80 +1,79 @@
 {
-  "broadArea": {
-    "name": "Computer Science and Engineering",
-    "link": "http://vlab.co.in/broad-area-computer-science-and-engineering",
-    "code": "CSE"
-  },
-  "lab": "Distributed Systems - II",
-  "lab_display_name": "Distributed Systems - II",
-  "phase": "3-ext",
-  "collegeName": "IIITH",
-  "baseUrl": "dsys2-iiith.vlabs.ac.in",
-  "introduction": "Distributed Systems Lab 2 continues building upon Distributed Systems Lab 1 and advances into high-level system architecture, focusing on fault tolerance, consistency, and scalability. This lab enables students to experiment with consensus protocols under various failure models (Crash and Byzantine) and distributed transaction standards like the 2-Phase Commit. Additionally, the lab explores peer-to-peer data structures through Consistent Hashing and Chord, providing critical insights into building robust and scalable distributed applications.",
-  "experiments": [
-    {
-  "name": "Consistent Hashing",
-  "short-name": "consistent-hashing",
-  "repo": "https://github.com/virtual-labs/exp-consistent-hashing-iiith",
-  "tag": "v1.0.0",
-  "deploy": true
-},
-{
-  "name": "Maekawa Quorum Based Mutual Exclusion",
-  "short-name": "maekawa-quorum-mutual-exclusion",
-  "repo": "https://github.com/virtual-labs/exp-quorum-based-algorithm-iiith",
-  "tag": "v1.0.0",
-  "deploy": true
-},
-{
-  "name": "Consensus with Crash Failures",
-  "short-name": "consensus-crash-failures",
-  "repo": "https://github.com/virtual-labs/exp-crash-failures-scenario-iiith",
-  "tag": "v1.0.0",
-  "deploy": true
-},
-{
-  "name": "Byzantine Failures Scenario",
-  "short-name": "byzantine-failures-scenario",
-  "repo": "https://github.com/virtual-labs/exp-byzantine-failures-scenario-iiith",
-  "tag": "v1.0.0",
-  "deploy": true
-},
-{
-  "name": "2-Phase Commit without Failures",
-  "short-name": "two-phase-commit-no-failures",
-  "repo": "https://github.com/virtual-labs/exp-two-phase-without-failures-iiith",
-  "tag": "v1.0.0",
-  "deploy": true
-},
-{
-  "name": "Chord System",
-  "short-name": "chord-system",
-  "repo": "https://github.com/virtual-labs/exp-chord-system-iiith",
-  "tag": "v1.0.0",
-  "deploy": true
-},
-{
-  "name": "2-Phase Commit Protocol Simulation",
-  "short-name": "two-phase-commit-protocol",
-  "repo": "https://github.com/virtual-labs/exp-two-phase-commit-failures-iiith",
-  "tag": "v1.0.0",
-  "deploy": true
-}
-  ],
-  "targetAudience": {
-    "UG": [
-      "4th Year (7th or 8th semester)"
+    "broadArea": {
+        "name": "Computer Science and Engineering",
+        "link": "http://vlab.co.in/broad-area-computer-science-and-engineering",
+        "code": "CSE"
+    },
+    "lab": "Distributed Systems - II",
+    "lab_display_name": "Distributed Systems - II",
+    "phase": "3-ext",
+    "collegeName": "IIITH",
+    "baseUrl": "dsys2-iiith.vlabs.ac.in",
+    "introduction": "Distributed Systems Lab 2 continues building upon Distributed Systems Lab 1 and advances into high-level system architecture, focusing on fault tolerance, consistency, and scalability. This lab enables students to experiment with consensus protocols under various failure models (Crash and Byzantine) and distributed transaction standards like the 2-Phase Commit. Additionally, the lab explores peer-to-peer data structures through Consistent Hashing and Chord, providing critical insights into building robust and scalable distributed applications.",
+    "experiments": [
+        {
+            "name": "Consistent Hashing",
+            "short-name": "consistent-hashing",
+            "repo": "https://github.com/virtual-labs/exp-consistent-hashing-iiith",
+            "tag": "v1.0.0",
+            "deploy": true
+        },
+        {
+            "name": "Maekawa Quorum Based Mutual Exclusion",
+            "short-name": "maekawa-quorum-mutual-exclusion",
+            "repo": "https://github.com/virtual-labs/exp-quorum-based-algorithm-iiith",
+            "tag": "v1.0.0",
+            "deploy": true
+        },
+        {
+            "name": "Consensus with Crash Failures",
+            "short-name": "consensus-crash-failures",
+            "repo": "https://github.com/virtual-labs/exp-crash-failures-scenario-iiith",
+            "tag": "v1.0.0",
+            "deploy": true
+        },
+        {
+            "name": "Byzantine Failures Scenario",
+            "short-name": "byzantine-failures-scenario",
+            "repo": "https://github.com/virtual-labs/exp-byzantine-failures-scenario-iiith",
+            "tag": "v1.0.0",
+            "deploy": true
+        },
+        {
+            "name": "2-Phase Commit without Failures",
+            "short-name": "two-phase-commit-no-failures",
+            "repo": "https://github.com/virtual-labs/exp-two-phase-without-failures-iiith",
+            "tag": "v1.0.0",
+            "deploy": true
+        },
+        {
+            "name": "Chord System",
+            "short-name": "chord-system",
+            "repo": "https://github.com/virtual-labs/exp-chord-system-iiith",
+            "tag": "v1.0.0",
+            "deploy": true
+        },
+        {
+            "name": "2-Phase Commit Protocol Simulation",
+            "short-name": "two-phase-commit-protocol",
+            "repo": "https://github.com/virtual-labs/exp-two-phase-commit-failures-iiith",
+            "tag": "v1.0.0",
+            "deploy": true
+        }
     ],
-    "PG": [
-      ""
-    ]
-  },
-  "objective": "<ul><li>Master Consensus & Reliability: Analyze consensus algorithms and quorum-based mutual exclusion to maintain system integrity under Crash and Byzantine failure scenarios.</li><li>Explore Distributed Transactions: Implement the 2-Phase Commit protocol (with and without failures) to ensure atomicity and consistency in distributed databases.</li><li>Understand Scalable Architectures: Investigate Distributed Hash Tables (DHTs) using Consistent Hashing and Chord for efficient data lookup and load balancing in peer-to-peer networks.</li></ul>",
-  "courseAlignment": {
-    "description": "The syllabi of this lab aligns to the following universities in India",
-    "universities": [
-      "Principles of Distributed Systems is a micro-specialization course in Computer Science and Engineering, recommended in the AICTE model curriculum under Micro Specializations."
-    ]
-
- 
+    "targetAudience": {
+        "UG": [
+            "4th Year (7th or 8th semester)"
+        ],
+        "PG": [
+            ""
+        ]
+    },
+    "objective": "<ul><li>Master Consensus & Reliability: Analyze consensus algorithms and quorum-based mutual exclusion to maintain system integrity under Crash and Byzantine failure scenarios.</li><li>Explore Distributed Transactions: Implement the 2-Phase Commit protocol (with and without failures) to ensure atomicity and consistency in distributed databases.</li><li>Understand Scalable Architectures: Investigate Distributed Hash Tables (DHTs) using Consistent Hashing and Chord for efficient data lookup and load balancing in peer-to-peer networks.</li></ul>",
+    "courseAlignment": {
+        "description": "The syllabi of this lab aligns to the following universities in India",
+        "universities": [
+            "Principles of Distributed Systems is a micro-specialization course in Computer Science and Engineering, recommended in the AICTE model curriculum under Micro Specializations."
+        ]
+    }
 }
