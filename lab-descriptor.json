@@ -15,49 +15,49 @@
             "name": "Consistent Hashing",
             "short-name": "consistent-hashing",
             "repo": "https://github.com/virtual-labs/exp-consistent-hashing-iiith",
-            "tag": "v1.0.0",
+            "tag": "v1.0.1",
             "deploy": true
         },
         {
             "name": "Maekawa Quorum Based Mutual Exclusion",
             "short-name": "maekawa-quorum-mutual-exclusion",
             "repo": "https://github.com/virtual-labs/exp-quorum-based-algorithm-iiith",
-            "tag": "v1.0.0",
+            "tag": "v1.0.1",
             "deploy": true
         },
         {
             "name": "Consensus with Crash Failures",
             "short-name": "consensus-crash-failures",
             "repo": "https://github.com/virtual-labs/exp-crash-failures-scenario-iiith",
-            "tag": "v1.0.0",
+            "tag": "v1.0.1",
             "deploy": true
         },
         {
             "name": "Byzantine Failures Scenario",
             "short-name": "byzantine-failures-scenario",
             "repo": "https://github.com/virtual-labs/exp-byzantine-failures-scenario-iiith",
-            "tag": "v1.0.0",
+            "tag": "v1.0.1",
             "deploy": true
         },
         {
             "name": "2-Phase Commit without Failures",
             "short-name": "two-phase-commit-no-failures",
             "repo": "https://github.com/virtual-labs/exp-two-phase-without-failures-iiith",
-            "tag": "v1.0.0",
+            "tag": "v1.0.1",
             "deploy": true
         },
         {
             "name": "Chord System",
             "short-name": "chord-system",
             "repo": "https://github.com/virtual-labs/exp-chord-system-iiith",
-            "tag": "v1.0.0",
+            "tag": "v1.0.1",
             "deploy": true
         },
         {
             "name": "2-Phase Commit Protocol Simulation",
             "short-name": "two-phase-commit-protocol",
             "repo": "https://github.com/virtual-labs/exp-two-phase-commit-failures-iiith",
-            "tag": "v1.0.0",
+            "tag": "v1.0.1",
             "deploy": true
         }
     ],
