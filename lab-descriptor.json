@@ -43,7 +43,7 @@
             "name": "2-Phase Commit without Failures",
             "short-name": "two-phase-commit-no-failures",
             "repo": "https://github.com/virtual-labs/exp-two-phase-without-failures-iiith",
-            "tag": "v1.0.1",
+            "tag": "v1.0.2",
             "deploy": true
         },
         {
